@@ -172,6 +172,11 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-gray-800 px-6 py-12 text-center text-gray-500">
+        <p className="mb-3">
+          <a href="tel:+123456789543" className="text-green-400 hover:text-green-300 transition-colors font-semibold">
+            +1 234 56789543
+          </a>
+        </p>
         <p>&copy; 2026 NovaPay. All rights reserved.</p>
       </footer>
     </div>
